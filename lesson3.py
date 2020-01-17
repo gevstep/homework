@@ -1,0 +1,6 @@
+user_input = input("enter your name: ")
+print(user_input)
+print(type(user_input))
+user_input = int(user_input)
+print(type(user_input))
+print(user_input)
