@@ -9,7 +9,7 @@ print("Inputed number divisible 5 and 11 is: ", user_input % 5 == 0 and user_inp
 #Task 3
 year_input = input("Input year: ")
 year_input = int(year_input)
-print("Year is leap: ", year_input % 4 == 0 and year_input % 100 == 0)
+print("Year is leap: ", year_input % 4 == 0 or year_input % 100 == 0)
 
 
 
