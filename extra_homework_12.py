@@ -24,17 +24,18 @@ print("Low letters count: ", low_letter_count)
 my_list = [1, 4, 7, 'a', 'aa', 'zz', 1, 'aa']
 uniqe_list = []
 count = 0
-for i in my_list:
-	if my_list.count(i) < 2 :
-		uniqe_list.append(i)
+def return_unique_list(my_list, uniqe_list):
+	for i in my_list:
+		if my_list.count(i) < 2 :
+			uniqe_list.append(i)
+			
+	print(uniqe_list) 
 		
 
-print(uniqe_list)
-
+return_unique_list(my_list, uniqe_list)
 # Task 4
 user_number = int(input("Enter a number: "))
 if user_number % 2 == 0 or user_number % 3 == 0:
 	print("Your number is not prime: ")
 else:
 	print("Your number prime: ")
-
