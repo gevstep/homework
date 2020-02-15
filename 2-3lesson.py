@@ -17,10 +17,11 @@ class Vehicle:
         self.name = name
         self.color = color
         self.cost = cost
-    def car_info(self):
-        return self.name +" "+ self.color +" " + str(self.cost)
+    def vehicle_info(self):
+        return self.name + " " + self.color + " " + str(self.cost)+"$"
+
 
 car1 = Vehicle("Fer", "red", 60000)
 car2 = Vehicle("Jump", "blue", 10000)
 
-print(Vehicle.car_info(car1))
+
