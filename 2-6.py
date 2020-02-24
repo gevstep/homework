@@ -8,10 +8,12 @@ class ListElementsSum:
         elements_sum = []
         for k in numbers:
             for j in numbers:
-                if k + j == target and numbers.index(k) not in elements_sum and numbers.index(j) not in elements_sum and k != j:
+                if k + j == target and numbers.index(k) and k != j:
                     elements_sum.append(numbers.index(k))
                     elements_sum.append(numbers.index(j))
-        print(elements_sum)
+                    print(elements_sum)
+                    break
+
 
 
 def inputed_instance():
@@ -24,7 +26,7 @@ def inputed_instance():
         list_element = int(input("Enter the list element: "))
         numbers.append(list_element)
         i += 1
-        
+
 
 
 ListElementsSum.list_elements_sum(inputed_instance())
