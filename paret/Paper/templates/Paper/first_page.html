@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <p align=right>
+        Հավելված
+        </p>
+        <p align=right>
+        Պարետի 2020թ․
+        </p>
+        <p align=right>
+        Մարտի 24-ի N 16 որոշման
+        </p>
+        <p align = center>
+            <b>
+                ԱՐՏԱԿԱՐԳ ԴՐՈՒԹՅԱՆ ԺԱՄԱՆԱԿԱՀԱՏՎԱԾՈՒՄ ՏԵՂԱՇԱՐԺՄԱՆ ԹԵՐԹԻԿ
+            </b>
+        </p>
+        <p>
+            {{ date }}  ապրիլ 2020թ</p>
+            <table border="3" bordercolor="black" align = justify height ="50%" width="50%" cellpadding= "4">
+                <tr>
+                    <td align = center>
+                        <b>
+                            Անուն, Ազգանուն, Հայրանուն
+                        </b>
+                    </td>
+                    <td> {{ user_name }} </td>
+                </tr>
+                <tr>
+                    <td align = center>
+                        <b>
+                            Ելքի ժամը
+                        </b>
+                    </td>
+                    <td> {{ exit_time }} </td>
+                </tr>
+                <tr>
+                    <td align = center>
+                        <b>
+                            Ելքի հասցե
+                        </b>
+                    </td>
+                    <td> {{ exit_address }} </td>
+                </tr>
+                <tr>
+                    <td align = center>
+                        <b>
+                             Այցելության վայրի հասցե և անվանում
+                        </b>
+                    </td>
+                    <td> {{ visit_address }} </td>
+                </tr>
+                <tr>
+                    <td align = center>
+                        <b>
+                            Այցելության նպատակը
+                        </b>
+                     </td>
+                    <td> {{ visit_purpose }} </td>
+                </tr>
+                <tr>
+                    <td align = center>
+                        <b>
+                             Վերադարձի ակնկալվող ժամ
+                         </b>
+                      </td>
+                    <td> {{ return_time }} </td>
+                </tr>
+            </table>
+            <p align= center>Ստորագրություն __________________</p>
+            <button type="button" name="import_pdf" style="vertical-align: middle">
+                Արտահանել
+            </button>
+    </body>
+</html>
