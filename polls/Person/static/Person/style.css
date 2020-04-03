@@ -1,0 +1,35 @@
+h1 {
+    color: blue;
+}
+
+.h1_name {
+    color: green;
+}
+
+.h1_surname {
+    color: yellow;
+}
+
+#h1_third {
+    color: yellow;
+}
+
+.div_first{
+    padding-left: 50%;
+    padding-top: 10%;
+    display: flex;
+}
+.buton_div {
+    padding-left: 50%;
+    padding-top: 1%;
+    display:flex;
+}
+.search {
+    padding-left: 50%;
+    padding-top: 1%;
+    display:flex;
+}
+.example_text {
+    padding-left: 50%;
+    padding-top: 0%;
+}
